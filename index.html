@@ -28,7 +28,9 @@
       <div class="m-5 row justify-content-around">
         <div class="col-12 col-md-6 col-xl-3 mb-3">
           <div class="card">
-            <h4 class="card-header bg-dark text-light">To Do</h4>
+            <h4 class="card-header bg-dark text-light d-flex align-items-center">
+              To Do
+            </h4>
             <ul id="list-toDo" class="list-group list-group-flush">        
             </ul>
           </div>
@@ -37,7 +39,8 @@
         <!-- in progress start -->
           <div class="col-12 col-md-6 col-xl-3 mb-3">
             <div class="card">
-              <h4 class="card-header bg-dark text-light">In progress</h4>
+              <h4 class="card-header bg-dark text-light d-flex align-items-center">
+                In progress</h4>
               <ul id="list-inProgress" class="list-group list-group-flush">
               </ul>
             </div>
@@ -46,7 +49,9 @@
         <!-- in review start -->
         <div class="col-12 col-md-6 col-xl-3 mb-3">
           <div class="card">
-            <h4 class="card-header bg-dark text-light">In Review</h4>
+            <h4 class="card-header bg-dark text-light d-flex align-items-center">
+              In Review
+            </h4>
             <ul id="list-inReview" class="list-group list-group-flush">
             </ul>
           </div>
@@ -55,16 +60,18 @@
         <!-- done start -->
         <div class="col-12 col-md-6 col-xl-3 mb-3">
           <div class="card">
-            <h4 class="card-header bg-dark text-light">Done</h4>
+            <h4 class="card-header bg-dark text-light d-flex align-items-center">
+              Done
+            </h4>
             <ul id="list-done" class="list-group list-group-flush">
             </ul>
           </div>
         </div>
         <!-- done end -->
       </div>
-      <div id="trash" class="mt-auto">
-        <div class="w-100 bg-danger p-3 text-center text-light display-4 bottom-trash">
-          <span class="oi oi-trash mx-auto mb-4"></span> Drop Here to Remove.
+      <div class="mt-auto" id="trash">
+        <div class="w-100 bg-danger p-3 text-center text-light display-4">
+          Drop Here to Remove.
         </div>
       </div>
     </main>
@@ -106,6 +113,7 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery-ui-touch-punch@0.2.3/jquery.ui.touch-punch.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   <script src="./assets/js/script.js"></script>
 </body>
 
